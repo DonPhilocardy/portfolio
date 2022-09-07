@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #2D2D2D;
+}
+
+.foto-perfil {
+    width: 90%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 6px 3px #41FF3E;
+    margin: 90px 0 0 15px;
+    
+}
+
+.foto, .descricao {
+    padding-top: 10px;
+    width: 400px;
+    margin: 5px;
+      /*border: #941e2d solid 1px; */
+}
+.foto{
+    padding-top: 60px;
+}
+.descicao{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-left: 10px;
+    margin-top: 100px;
+    
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+ 
+.link-cv {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* border: #941e2d solid 1px; */
+}
+
+.icon {
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #454545;
+}
+.info{
+    margin-top: 20px;
+}
+span{
+    margin-left: 20px;
+    font-weight: 700;
+}
+.mwz{
+    margin-left: 34px;
+}
+.cv{
+    width: 100%;
+    text-align: center;
+}
